@@ -1,5 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  color: white;
+  background-color: rgb(52, 50, 50);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/mobile-bg.jpg);
+  text-align: center;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav img {
+  height: 50px;
+  width: 100px;
+  margin: 10px 100px 0 0;
+}
+header nav li {
+  list-style: none;
+}
+header nav li a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 3px;
+}
+header h2 {
+  margin: 50px 20px 20px 20px;
+  color: white;
+}
+header input {
+  padding: 10px 150px 10px 5px;
+  margin: 10px 20px 0 20px;
+}
+header button {
+  margin: 20px 0 50px 0;
+  padding: 10px 20px 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.content1 {
+  background-color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+.content1 .left-content h2 {
+  padding: 50px;
+}
+.content1 .right-content {
+  padding-bottom: 50px;
+}
+.content1 .right-content img {
+  height: 300px;
+  width: 400px;
+}
+
+.content2 {
+  margin-top: 10px;
+  background-color: black;
+  text-align: center;
+}
+.content2 .left-content h2 {
+  padding: 50px;
+}
+.content2 .right-content {
+  padding-bottom: 50px;
+}
+.content2 .right-content img {
+  height: 300px;
+  width: 400px;
+}
+
+.content3 {
+  background-color: black;
+  text-align: center;
+  margin-top: 10px;
+  padding: 50px;
+}
+
+.content4 {
+  background-color: black;
+  text-align: center;
+  margin-top: 10px;
+  padding: 50px;
+}
+.content4 img {
+  height: 300px;
+  width: 300px;
+}
+
+.content5 {
+  background-color: black;
+  margin-top: 10px;
+}
+.content5 #box {
+  background-color: rgb(58, 58, 58);
+  margin-top: 10px;
+  padding: 8px;
+}
+.content5 #info {
+  display: none;
+  padding: 5px;
+}
+.content5 #info p {
+  text-align: justify;
+}
+.content5 .more-info {
+  margin: 10px;
+  text-align: center;
+}
+.content5 input {
+  padding: 10px 150px 10px 5px;
+  margin: 20px 50px 0 50px;
+}
+.content5 button {
+  margin: 20px 0 50px 150px;
+  padding: 10px 20px 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
