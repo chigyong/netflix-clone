@@ -8,7 +8,7 @@
 
 main {
   color: white;
-  background-color: rgb(52, 50, 50);
+  background-color: rgb(34, 33, 33);
 }
 
 header {
@@ -18,12 +18,12 @@ header {
 header nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 header nav img {
   height: 50px;
   width: 100px;
-  margin: 10px 100px 0 0;
+  margin: 10px 0 0 20px;
 }
 header nav li {
   list-style: none;
@@ -33,6 +33,7 @@ header nav li a {
   color: white;
   background-color: red;
   padding: 3px;
+  margin-right: 20px;
 }
 header h2 {
   margin: 50px 20px 20px 20px;
@@ -104,10 +105,14 @@ header button {
   background-color: black;
   margin-top: 10px;
 }
+.content5 h2 {
+  text-align: center;
+  padding: 30px;
+}
 .content5 #box {
   background-color: rgb(58, 58, 58);
   margin-top: 10px;
-  padding: 8px;
+  padding: 15px;
 }
 .content5 #info {
   display: none;
@@ -130,4 +135,83 @@ header button {
   background-color: red;
   color: white;
   border: none;
+}
+
+.content6 {
+  background-color: black;
+  margin-top: 10px;
+  padding: 20px 0 0 30px;
+  color: rgb(226, 226, 226);
+  font-size: 12px;
+}
+.content6 p {
+  margin: 15px 0 15px 0;
+}
+.content6 .links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.content6 .links li {
+  list-style: none;
+  padding: 10px;
+  opacity: 0.5;
+}
+.content6 .links a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+
+@media only screen and (min-width: 1440px) {
+  header h2 {
+    font-size: 55px;
+    width: 45%;
+    margin-left: 28%;
+    margin-top: 150px;
+  }
+  header p {
+    font-size: 20px;
+    line-height: 2;
+  }
+  header nav img {
+    margin: 20px 0 0 50px;
+    height: 50px;
+    width: 150px;
+  }
+  header nav li {
+    margin-right: 50px;
+  }
+  header nav li a {
+    padding: 5px 10px 5px 10px;
+  }
+  header input {
+    padding: 20px 350px 20px 5px;
+    margin-right: 0;
+  }
+  header button {
+    padding: 22px 15px 22px 15px;
+    margin-left: 0;
+  }
+  .content1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content1 .left-content {
+    margin-left: 250px;
+    text-align: left;
+  }
+  .content1 .left-content h2 {
+    font-size: 30px;
+  }
+  .content1 .left-content p {
+    font-size: 20px;
+    margin: 0 0 0 50px;
+  }
+  .content2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }/*# sourceMappingURL=style.css.map */

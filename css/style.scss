@@ -7,7 +7,7 @@
 }
 main {
     color: white;
-    background-color: rgb(52, 50, 50);
+    background-color: rgb(34, 33, 33);
 }
 header {
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
@@ -16,11 +16,11 @@ header {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 img {
     height: 50px;
     width: 100px;
-    margin: 10px 100px 0 0;
+    margin: 10px 0 0 20px;
 }
 li {
     list-style: none;
@@ -29,6 +29,7 @@ a {
     color: white;
     background-color: red;
     padding: 3px;
+    margin-right: 20px;
 }
 }
 }
@@ -101,10 +102,15 @@ img {
 .content5 {
     background-color: black;
     margin-top: 10px;
+h2 {
+    text-align: center;
+
+    padding: 30px;
+}
     #box {
         background-color: rgb(58, 58, 58);
         margin-top: 10px;
-        padding: 8px;
+        padding: 15px;
     }
     #info {
         display: none;
@@ -128,5 +134,90 @@ button {
     background-color: red;
     color: white;
     border: none;
+}
+}
+.content6 {
+    background-color: black;
+    margin-top: 10px;
+    padding: 20px 0 0 30px;
+    color: rgb(226, 226, 226);
+    font-size: 12px;
+    
+p {
+    margin: 15px 0 15px 0;
+    
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    li {
+        list-style: none;
+        padding: 10px;
+        opacity: .5;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(226, 226, 226);
+        
+    }
+}
+}
+@media only screen and (min-width: 1440px) {
+header {
+ h2 {
+    font-size: 55px;
+    width: 45%;
+    margin-left: 28%;
+    margin-top: 150px;
+    }
+p {
+    font-size: 20px;
+    line-height: 2;
+}
+nav {
+img {
+    margin:20px 0 0 50px;
+    height: 50px;
+    width: 150px;
+}
+li {
+    margin-right: 50px;
+a {
+    padding: 5px 10px 5px 10px;
+}
+}
+}
+input {
+    padding: 20px 350px 20px 5px;
+    margin-right: 0;
+}
+button {
+    padding: 22px 15px 22px 15px;
+    margin-left: 0;
+}
+}
+.content1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+.left-content {
+    margin-left: 250px;
+    text-align: left;
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+    margin: 0 0 0 50px;
+}
+}
+}
+.content2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.content4 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 }
