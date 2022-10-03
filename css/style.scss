@@ -10,11 +10,9 @@ main {
     background-color: rgb(34, 33, 33);
 }
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
     url(../images/mobile-bg.jpg);
     text-align: center;
-    background-size: contain;
-    background-position: center;
 nav {
     display: flex;
     align-items: center;
@@ -199,5 +197,96 @@ button {
     margin-left: 0;
 }
 }
+.content1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+.left-content {
+    margin-left: 200px;
+    text-align: left;
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+    margin: 0 0 0 50px;
+}
+}
+}
+.content2 {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+.left-content {
+    margin-left: 200px;
+    width: 50%;
+    text-align: left;
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+        margin: 0 0 0 50px;
+    }
+} 
+.right-content {
+    margin-right: 100px;
+}
+    }
 
+
+.content3 {
+  text-align: left;
+h2 {
+    font-size: 50px;
+    margin-left: 10rem;
+}
+p {
+    font-size: 20px;
+    width: 30%;
+    margin-left: 10.5rem;
+
+}
+}
+.content4 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: left;
+.left-content {
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.right-content {
+    margin-left: 200px;
+}
+}
+.content5 {
+
+    #box {
+        margin: 10px 400px 0 400px;
+        padding: 20px 0 20px 10px;
+    }
+    input {
+        padding: 20px 350px 20px 5px;
+        margin-left:450px;
+        margin-right: 0;
+    }
+    button {
+        padding: 22px 15px 22px 15px;
+        margin-left: 0;
+    }
+}
+.content6 {
+    
+p {
+    margin-left: 310px;
+    font-size: 15px;
+    opacity: .5;
+}
+    .links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 300px 0 300px;
+    
+    }
+}
 }
