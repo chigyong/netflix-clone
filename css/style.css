@@ -12,8 +12,10 @@ main {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/mobile-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/mobile-bg.jpg);
   text-align: center;
+  background-size: contain;
+  background-position: center;
 }
 header nav {
   display: flex;
@@ -190,28 +192,5 @@ header button {
   header button {
     padding: 22px 15px 22px 15px;
     margin-left: 0;
-  }
-  .content1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .content1 .left-content {
-    margin-left: 250px;
-    text-align: left;
-  }
-  .content1 .left-content h2 {
-    font-size: 30px;
-  }
-  .content1 .left-content p {
-    font-size: 20px;
-    margin: 0 0 0 50px;
-  }
-  .content2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .content4 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
 }/*# sourceMappingURL=style.css.map */
