@@ -123,6 +123,41 @@ header button {
 .content5 #info p {
   text-align: justify;
 }
+.content5 #info1 {
+  display: none;
+  padding: 5px;
+}
+.content5 #info1 p {
+  text-align: justify;
+}
+.content5 #info2 {
+  display: none;
+  padding: 5px;
+}
+.content5 #info2 p {
+  text-align: justify;
+}
+.content5 #info3 {
+  display: none;
+  padding: 5px;
+}
+.content5 #info3 p {
+  text-align: justify;
+}
+.content5 #info4 {
+  display: none;
+  padding: 5px;
+}
+.content5 #info4 p {
+  text-align: justify;
+}
+.content5 #info5 {
+  display: none;
+  padding: 5px;
+}
+.content5 #info5 p {
+  text-align: justify;
+}
 .content5 .more-info {
   margin: 10px;
   text-align: center;
